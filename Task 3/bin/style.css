@@ -1,0 +1,60 @@
+/* style.css */
+
+.root {
+    -fx-font-family: "Arial", sans-serif;
+}
+
+.label {
+    -fx-font-size: 14pt;
+}
+
+.text-field, .date-picker, .text-area {
+    -fx-font-size: 14pt;
+}
+
+.button {
+    -fx-font-size: 14pt;
+}
+
+.button:hover {
+    -fx-background-color: #5cb85c; /* Hover color */
+}
+
+.scroll-pane {
+    -fx-background-color: #ffffff; /* Background color */
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: #ffffff; /* Viewport background color */
+}
+
+.scroll-pane .scroll-bar {
+    -fx-background-color: #4CAF50; /* Scrollbar color */
+}
+
+.scroll-pane .scroll-bar .thumb {
+    -fx-background-color: #81C784; /* Scrollbar thumb color */
+}
+
+.scroll-pane .scroll-bar .thumb:hover {
+    -fx-background-color: #66BB6A; /* Scrollbar thumb color on hover */
+}
+
+.grid-pane {
+    -fx-background-color: #ffffff; /* Background color */
+}
+
+#titleLabel {
+    -fx-font-size: 24pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4CAF50;
+}
+
+#generateButton {
+    -fx-background-color: #4CAF50; /* Button background color */
+    -fx-text-fill: white; /* Button text color */
+}
+
+#generateButton:hover {
+    -fx-background-color: #5cb85c; /* Button background color on hover */
+}
